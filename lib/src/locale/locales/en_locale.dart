@@ -67,9 +67,9 @@ class EnRelativeTime extends RelativeDateTime {
   @override
   String prefixAgo() => '';
   @override
-  String prefixFromNow() => 'in';
+  String prefixFromNow() => '';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => '';
   @override
   String suffixFromNow() => '';
   @override
@@ -83,9 +83,9 @@ class EnRelativeTime extends RelativeDateTime {
   @override
   String hours(int hours) => '$hours hours';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => '1d';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '${days}d';
   @override
   String aboutAMonth(int days) => 'a month';
   @override

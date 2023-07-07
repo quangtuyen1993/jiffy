@@ -40,9 +40,9 @@ class ZhRelativeTime extends RelativeDateTime {
   @override
   String prefixFromNow() => '';
   @override
-  String suffixAgo() => '前';
+  String suffixAgo() => '';
   @override
-  String suffixFromNow() => '内';
+  String suffixFromNow() => '';
   @override
   String lessThanOneMinute(int seconds) => '幾秒';
   @override
